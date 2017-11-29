@@ -1,9 +1,44 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
 }
 
 .top-line {
   height: 5px;
   background-color: #fdbd1f;
 }
+
+.wrap {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: rgba(0, 255, 0, 0.5); /* TEST */
+}
+
+/* header */
+
+.header {
+  min-height: 80px;
+  background-color: white;
+}
+
+
+
+.header .site-logo {
+  float: left;
+  background-color: rgba(255, 0, 0, 0.5); /* TEST */
+}
+.header .site-logo img {
+  width: 29px;
+  height: 32px;
+  padding-right: 10px;
+}
+.header .site-logo a {
+}
+.header .site-logo a span {
+
+}
+
+/*.header .site-logo .logo {
+  padding:
+}*/
