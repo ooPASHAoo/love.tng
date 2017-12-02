@@ -9,9 +9,9 @@ body {
 }
 
 .wrap {
-    width: 870px;
+    width: 1170px;
     margin: 0 auto;
-    /*    background-color: rgba(0, 255, 0, 0.5);*/
+/*        background-color: rgba(0, 255, 0, 0.5);*/
     /* TEST */
 }
 
@@ -139,6 +139,7 @@ body {
     min-width: 140px;
     min-height: 25px;
     padding: 10px;
+    text-align: center;
     border-radius: 4px;
     text-decoration: none;
     font-size: 20px;
@@ -149,4 +150,67 @@ body {
 
 .offer a + a {
     margin-left: 15px;
+    4
+}
+
+/* ==================== */
+
+/* ===== features ===== */
+
+/* ==================== */
+
+.features {
+    background-color: white;
+}
+
+.feature {
+    position: relative;
+    padding: 60px 0;
+    display: inline-block;
+    width: 410px;
+    padding-left: 170px;
+}
+
+.feature + .feature {
+    border-left: 1px solid #e2e2df;
+}
+
+.feature h3 {
+/*    padding: 0px;*/
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ab6f80;
+}
+
+.feature h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fdbd1f;
+}
+
+.feature p {
+    margin: 20px 0 0 0;;
+    font-size: 15px;
+    color: #978489;
+}
+
+.features a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 9px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #fdbd1f;
+}
+
+.feature img {
+    position: absolute;
+    left: 50px;
+/*    top: 20px;*/
 }
