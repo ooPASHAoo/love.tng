@@ -4,6 +4,8 @@ body {
     background-color: lightgray;
     font-family: "Source Sans Pro";
     border-top: 5px solid #fdbd1f;
+    padding-bottom: 200px;
+    /* DEV */
 }
 
 .wrap {
@@ -105,4 +107,46 @@ body {
     font-weight: bold;
     background-color: #ab6f80;
     color: white;
+}
+
+/* ================= */
+
+/* ===== offer ===== */
+
+/* ================= */
+
+.offer {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fdbd1f;
+    color: white;
+}
+
+.offer h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.offer p {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.offer a {
+    display: inline-block;
+    margin-top: 30px;
+    min-width: 140px;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdbd1f;
+    background-color: #ab6f80;
+}
+
+.offer a + a {
+    margin-left: 15px;
 }
