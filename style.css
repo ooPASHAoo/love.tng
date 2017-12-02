@@ -1,44 +1,80 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: lightgray;
-}
-
-.top-line {
-  height: 5px;
-  background-color: #fdbd1f;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: "Source Sans Pro";
+    border-top: 5px solid #fdbd1f;
 }
 
 .wrap {
-  width: 1170px;
-  margin: 0 auto;
-  background-color: rgba(0, 255, 0, 0.5); /* TEST */
+    width: 870px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 0, 0.5);
+    /* TEST */
 }
 
-/* header */
+/* ================== */
+/* ===== header ===== */
+/* ================== */
 
 .header {
-  min-height: 80px;
-  background-color: white;
+    min-height: 80px;
+    background-color: white;
 }
 
-
+/* site-logo */
 
 .header .site-logo {
-  float: left;
-  background-color: rgba(255, 0, 0, 0.5); /* TEST */
+    float: left;
+    padding-left: 25px;
+    padding-top: 25px;
 }
-.header .site-logo img {
-  width: 29px;
-  height: 32px;
-  padding-right: 10px;
-}
+
 .header .site-logo a {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 14px;
+    text-decoration: none;
+    color: #9e8e92;
 }
+
 .header .site-logo a span {
-
+    font-size: 14px;
+    font-weight: lighter;
 }
 
-/*.header .site-logo .logo {
-  padding:
-}*/
+.header .site-logo img {
+    position: absolute;
+    left: 0px;
+}
+
+/* top-menu */
+
+.header .top-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right
+}
+
+.header .top-menu li {
+    display: inline-block;
+}
+
+.header .top-menu li a {
+    display: block;
+    min-width: 60px;
+    padding: 0 10px;
+    font: 13px/80px "Source Sans Pro";
+    text-align: center;
+    text-decoration: none;
+    color: #9e8e92;
+}
+
+.header .top-menu li a:hover {
+    background-color: #fdbd1f;
+    color: white;
+}
