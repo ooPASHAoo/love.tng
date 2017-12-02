@@ -9,12 +9,14 @@ body {
 .wrap {
     width: 870px;
     margin: 0 auto;
-    background-color: rgba(0, 255, 0, 0.5);
+    /*    background-color: rgba(0, 255, 0, 0.5);*/
     /* TEST */
 }
 
 /* ================== */
+
 /* ===== header ===== */
+
 /* ================== */
 
 .header {
@@ -76,5 +78,31 @@ body {
 
 .header .top-menu li a:hover {
     background-color: #fdbd1f;
+    color: white;
+}
+
+/* ================= */
+
+/* ===== promo ===== */
+
+/* ================= */
+
+.promo {
+    height: 440px;
+    background: #feefd7 url(img/backgr.png) no-repeat center;
+    background-size: cover;
+}
+
+.promo .title {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.promo .title span {
+    padding: 0 10px;
+    font: 31px/42px "Source Sans Pro";
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    background-color: #ab6f80;
     color: white;
 }
